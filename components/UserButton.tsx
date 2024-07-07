@@ -10,11 +10,10 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
+import SignOutButton from "./SignOutButton";
 
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { getUser } from "@/lib/lucia";
-import SignOutButton from "./SignoutButton";
-
 export default async function UserButton() {
   const user = await getUser();
   if (!user) {
