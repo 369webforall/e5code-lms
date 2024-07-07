@@ -18,7 +18,6 @@ const Hero = () => {
           <p>
             Note: use <b>Gmail</b> account to register
           </p>
-          <p>Fixing database issue</p>
         </div>
       </div>
     </div>
