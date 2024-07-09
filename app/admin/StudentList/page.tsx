@@ -35,7 +35,7 @@ const StudentList = async () => {
             <TableHead>Email</TableHead>
             <TableHead>Access</TableHead>
             <TableHead>Register Date</TableHead>
-            <TableHead className="text-right">Amount</TableHead>
+            <TableHead className="text-right">Payment</TableHead>
             <TableHead className="text-right">Action</TableHead>
           </TableRow>
         </TableHeader>
