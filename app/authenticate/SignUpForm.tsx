@@ -47,8 +47,20 @@ export const signUpSchema = z
     path: ["confirmPassword"],
   });
 
+function generateStudentId() {
+  const characters =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  let studentId = "MERN1";
+  for (let i = 0; i < 6; i++) {
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    studentId += characters[randomIndex];
+  }
+  return studentId.toUpperCase();
+}
+
 const SignUpForm = () => {
   const router = useRouter();
+  const id = generateStudentId();
   const form = useForm<z.infer<typeof signUpSchema>>({
     resolver: zodResolver(signUpSchema),
     defaultValues: {
@@ -57,7 +69,7 @@ const SignUpForm = () => {
       email: "",
       password: "",
       course: "",
-      studentId: "",
+      studentId: id,
     },
   });
 

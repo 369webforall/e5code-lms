@@ -13,17 +13,6 @@ import { redirect } from "next/navigation";
 import { generateState, generateCodeVerifier } from "arctic";
 import { googleOAuthClient } from "@/lib/googleOauth";
 
-async function generateStudentId() {
-  const characters =
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-  let studentId = "MERN1";
-  for (let i = 0; i < 4; i++) {
-    const randomIndex = Math.floor(Math.random() * characters.length);
-    studentId += characters[randomIndex];
-  }
-  return studentId;
-}
-
 export const signUp = async (values: z.infer<typeof signUpSchema>) => {
   try {
     // if user already exists, throw an error
@@ -47,16 +36,13 @@ export const signUp = async (values: z.infer<typeof signUpSchema>) => {
 
     const hashedPassword = await new Argon2id().hash(values.password);
 
-    const studentId = (await generateStudentId()).toUpperCase();
-    console.log(studentId);
-
     const user = await prisma.user.create({
       data: {
         email: values.email.toLowerCase(),
         name: values.name,
         hashedPassword,
         course: values.course,
-        studentId: studentId,
+        studentId: values.studentId,
       },
     });
 
