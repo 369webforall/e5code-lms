@@ -12,9 +12,18 @@ const Dashboard = async () => {
     redirect("/");
   }
   return (
-    <div>
-      Your are logged in as {user.name} and email {user.email}
-    </div>
+    <>
+      <header className="border-b-2">
+        <p>Studnet Name: {user.name}</p>
+        <p>Student Id: {user.studentId}</p>
+      </header>
+      <div className="my-2">
+        <p>
+          Notice: Please use your Student ID code when sending the payment slip
+          to Velsia or any further email.
+        </p>
+      </div>
+    </>
   );
 };
 

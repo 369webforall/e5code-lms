@@ -18,10 +18,11 @@ model User {
   email          String         @unique
   name           String
   role           UserRole       @default(student)
-  payment        String?
+  payment        PaySlip        @default(pending)
   hashedPassword String?
   picture        String?
   course         String?
+  studentId      String?
   createdAt      DateTime       @default(now())
   updatedAt      DateTime       @updatedAt
   sessions       Session[]
@@ -32,6 +33,11 @@ enum UserRole {
   admin
   student
   public
+}
+
+enum PaySlip {
+  completed
+  pending
 }
 
 model Session {

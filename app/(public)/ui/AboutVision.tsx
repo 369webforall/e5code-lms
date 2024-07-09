@@ -47,6 +47,27 @@ const AboutVision = () => {
             <li>Be prepared to pursue careers as MERN stack developers.</li>
           </ul>
         </div>
+        <div className="my-4 border-2 p-4">
+          <h2 className="font-bold text-2xl text-purple-600">Tuition Fee</h2>
+
+          <h3 className="font-semibold text-lg">
+            Full Access - (Live Class + Recording)
+          </h3>
+          <p className="text-lg font-bold">R2500</p>
+
+          <h3 className="font-semibold text-lg">
+            Video Content - (Class Recording)
+          </h3>
+          <p className="text-lg font-bold">R1500</p>
+
+          <p className="text-md italic mt-4">
+            Velsia will provide the account information for fund transfer.
+            Please note there will be no refund if a student wants to quit.
+            However, you will have access to the classes at any time for the
+            next 3 years, so you are most welcome to restart the learning
+            journey.
+          </p>
+        </div>
       </div>
     </section>
   );

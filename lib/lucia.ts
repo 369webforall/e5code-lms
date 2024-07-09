@@ -52,6 +52,7 @@ export const getUser = async () => {
       role: true,
       picture: true,
       course: true,
+      studentId: true,
     },
   });
   return dbUser;

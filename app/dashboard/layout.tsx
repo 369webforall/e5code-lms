@@ -1,10 +1,16 @@
 import Sidebar from "./ui/side-bar";
+import { getUser } from "@/lib/lucia";
+import { redirect } from "next/navigation";
 
-export default function RootLayout({
+async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const user = await getUser();
+  if (!user) {
+    redirect("/");
+  }
   return (
     <div className="h-full w-full">
       <div className="flex h-full gap-2 py-4">
@@ -14,3 +20,5 @@ export default function RootLayout({
     </div>
   );
 }
+
+export default RootLayout;

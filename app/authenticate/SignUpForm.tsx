@@ -40,6 +40,7 @@ export const signUpSchema = z
     password: z.string().min(8),
     confirmPassword: z.string().min(8),
     course: z.string().min(5).max(50),
+    studentId: z.string(),
   })
   .refine((data) => data.password === data.confirmPassword, {
     message: "Passwords do not match",
@@ -56,6 +57,7 @@ const SignUpForm = () => {
       email: "",
       password: "",
       course: "",
+      studentId: "",
     },
   });
 
@@ -119,11 +121,11 @@ const SignUpForm = () => {
               name="password"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Password</FormLabel>
+                  <FormLabel>Password (8 character required)</FormLabel>
                   <FormControl>
                     <Input
                       type="password"
-                      placeholder="Enter your password..."
+                      placeholder="Enter your password ...."
                       {...field}
                       onChange={(e) => {
                         e.target.value = e.target.value.trim();
