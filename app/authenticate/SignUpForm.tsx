@@ -186,11 +186,9 @@ const SignUpForm = () => {
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      <SelectItem value="Live Class">
-                        Live Class -Full Access{" "}
-                      </SelectItem>
+                      <SelectItem value="Live Class">Live Class</SelectItem>
                       <SelectItem value="Recorded Class">
-                        Recorded Video Only
+                        Recorded lectures
                       </SelectItem>
                     </SelectContent>
                   </Select>
