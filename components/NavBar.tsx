@@ -1,6 +1,7 @@
 import Link from "next/link";
 import UserButton from "./UserButton";
 import { getUser } from "@/lib/lucia";
+import { Button } from "./ui/button";
 
 export default async function NavBar() {
   const user = await getUser();
@@ -10,7 +11,7 @@ export default async function NavBar() {
         <div className="md:col-span-3">
           <a href="https://velisaafrica.co.za/academy/" target="-blank">
             <h1 className="text-2xl font-semibold text-green-800">
-              Velisa Afraica
+              Velisa Africa
             </h1>
           </a>
         </div>
@@ -26,7 +27,9 @@ export default async function NavBar() {
           {user ? (
             <UserButton />
           ) : (
-            <Link href={"/authenticate"}>Login or New Account</Link>
+            <Button variant="destructive">
+              <Link href={"/authenticate"}>Login or New Account</Link>
+            </Button>
           )}
         </div>
       </nav>

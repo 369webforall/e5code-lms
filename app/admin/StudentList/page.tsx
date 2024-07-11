@@ -35,6 +35,7 @@ const StudentList = async () => {
             <TableHead>Email</TableHead>
             <TableHead>Access</TableHead>
             <TableHead>Register Date</TableHead>
+            <TableHead>Course</TableHead>
             <TableHead className="text-right">Payment</TableHead>
             <TableHead className="text-right">Action</TableHead>
           </TableRow>
@@ -48,6 +49,7 @@ const StudentList = async () => {
               <TableCell>{student.email}</TableCell>
               <TableCell>{student.role}</TableCell>
               <TableCell>{student.createdAt.toDateString()}</TableCell>
+              <TableCell>{student.course}</TableCell>
               <TableCell className="text-right">{student.payment}</TableCell>
               <TableCell className="flex items-center justify-end space-x-4">
                 <Link href="/">

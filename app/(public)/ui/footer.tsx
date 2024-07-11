@@ -8,7 +8,7 @@ const Footer = () => {
         <div>
           <a href="https://velisaafrica.co.za/academy/" target="-blank">
             <h1 className="text-2xl font-semibold text-green-800">
-              Velisa Afraica
+              Velisa Africa
             </h1>
           </a>
         </div>
