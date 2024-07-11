@@ -35,15 +35,8 @@ const Faq = () => {
             have basic computer knowledge.
           </AccordionContent>
         </AccordionItem>
+
         <AccordionItem value="item-3">
-          <AccordionTrigger>Duration of courese</AccordionTrigger>
-          <AccordionContent>
-            It&#39; a 9-month course. We will do our best to complete the course
-            within this time frame, but it can be extended by 2 more months if
-            needed.
-          </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-4">
           <AccordionTrigger>
             How can I prepare for a full-stack web development bootcamp?
           </AccordionTrigger>
@@ -56,25 +49,37 @@ const Faq = () => {
             hours.
           </AccordionContent>
         </AccordionItem>
+        <AccordionItem value="item-4">
+          <AccordionTrigger>Duration of courese</AccordionTrigger>
+          <AccordionContent>
+            It&#39; a 9-month course. We will do our best to complete the course
+            within this time frame, but it can be extended by 2 more months if
+            needed.
+          </AccordionContent>
+        </AccordionItem>
         <AccordionItem value="item-5">
           <AccordionTrigger>
-            How much does a full-stack web development course cost for Full
-            Access (Live Class + Recordings)?
+            How much does the full-stack web development course cost for Full
+            Access (Live Class + Recordings) over 9 months?
           </AccordionTrigger>
           <AccordionContent>
             The Full Access tuition fee is <strong>R2500</strong>, which
             includes live classes and recordings. The recordings will be
-            available online one hour after each class.
+            available online one hour after each class. The cost covers the
+            complete course, and students will have access to the course for the
+            next 3 years.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-6">
           <AccordionTrigger>
-            How much does a full-stack web development course cost for
-            pre-recorded lectures Access ?
+            How much does the full-stack web development course cost for
+            pre-recorded lectures access?
           </AccordionTrigger>
           <AccordionContent>
-            The pre-recorded lectures Access cost <strong>R1500</strong>, which
-            includes all our live lectures recordings.
+            The pre-recorded lectures access costs <strong>R1500</strong>, which
+            includes all our live lectures recordings. The cost covers the
+            complete course, and students will have access to the course for the
+            next 3 years.
           </AccordionContent>
         </AccordionItem>
 
@@ -122,6 +127,31 @@ const Faq = () => {
           <AccordionContent>
             Upon finishing the course, receive a certificate acknowledging your
             accomplishment from our institution.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-11">
+          <AccordionTrigger>Good Internet Connection</AccordionTrigger>
+          <AccordionContent>
+            A stable and fast internet connection is essential for accessing
+            course materials, attending live classes, and participating in
+            discussions and for a smooth learning experience.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-12">
+          <AccordionTrigger>
+            We will also provide additional support to prepare you for a job
+            search.
+          </AccordionTrigger>
+          <AccordionContent>
+            We offer comprehensive support in several areas to help you succeed
+            in your web development career, including:
+            <ul className="list-disc ml-6 mt-2">
+              <li>Resume building</li>
+              <li>Portfolio development</li>
+              <li>Improving your GitHub profile</li>
+              <li>Searching for remote job opportunities</li>
+              <li>Interview preparation guidelines</li>
+            </ul>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
