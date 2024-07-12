@@ -2,17 +2,26 @@ import Link from "next/link";
 import UserButton from "./UserButton";
 import { getUser } from "@/lib/lucia";
 import { Button } from "./ui/button";
+import Image from "next/image";
 
 export default async function NavBar() {
   const user = await getUser();
   return (
-    <header className="sticky top-0 bg-background px-6 shadow-sm">
-      <nav className="relative max-w-7xl w-full flex gap-5 md:grid md:grid-cols-12 items-center px-4 md:px-8 mx-auto py-7">
+    <header className="fixed left-0 top-0 bg-background px-6 shadow-sm z-50 w-full">
+      <nav className="relative max-w-7xl w-full flex gap-5 md:grid md:grid-cols-12 items-center px-4 md:px-8 mx-auto py-4">
         <div className="md:col-span-3">
-          <a href="https://velisaafrica.co.za/academy/" target="-blank">
-            <h1 className="text-2xl font-semibold text-green-800">
-              Velisa Africa
-            </h1>
+          <a
+            href="https://velisaafrica.co.za/academy/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/logo.png"
+              width={200}
+              height={50}
+              alt="Velisa Africa Academy Logo"
+              priority
+            />
           </a>
         </div>
         <div className="md:col-span-6">

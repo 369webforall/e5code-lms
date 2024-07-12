@@ -50,7 +50,7 @@ export const signUpSchema = z
 function generateStudentId() {
   const characters =
     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-  let studentId = "MERN1";
+  let studentId = "MS";
   for (let i = 0; i < 6; i++) {
     const randomIndex = Math.floor(Math.random() * characters.length);
     studentId += characters[randomIndex];
