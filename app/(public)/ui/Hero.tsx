@@ -1,7 +1,8 @@
 import React from "react";
 import { Button } from "../../../components/ui/button";
-import HowToApply from "./Apply";
 import Image from "next/image";
+import Link from "next/link";
+import { MoveDownIcon } from "lucide-react";
 const Hero = () => {
   return (
     <>
@@ -22,6 +23,14 @@ const Hero = () => {
               <p>
                 Note: use <b>Gmail</b> account to register
               </p>
+              <Link href="#how-to-apply">
+                <Button
+                  className="mt-4 text-purple-600 font-bold text-xl"
+                  variant="link"
+                >
+                  <MoveDownIcon /> How to Apply
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="relative w-full h-96">
@@ -35,7 +44,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <HowToApply />
     </>
   );
 };
