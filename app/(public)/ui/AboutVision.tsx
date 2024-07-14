@@ -53,12 +53,16 @@ const AboutVision = () => {
           <h3 className="font-semibold text-lg">
             Full Access - (Live Class + Recording)
           </h3>
-          <p className="text-lg font-bold">R2500</p>
+          <p className="text-lg font-bold">
+            - R2500.00 + 15% VAT (Total: R2875.00)
+          </p>
 
           <h3 className="font-semibold text-lg">
-            Video Content - (Class Recording)
+            Video Content - (Pre-recorded classes)
           </h3>
-          <p className="text-lg font-bold">R1500</p>
+          <p className="text-lg font-bold">
+            - R1500.00 + 15% VAT (Total: R1725.00)
+          </p>
 
           <p className="text-md italic mt-4">
             Velsia will provide the account information for fund transfer.

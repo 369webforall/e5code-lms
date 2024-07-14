@@ -17,6 +17,12 @@ const Achievement = () => {
               learning.
             </li>
             <li>
+              Daily Assignments: The sucsess of this couse is entirly dependent
+              on you and your ability to practice all the concepts taught in
+              each class, work on the assigned projects, and you do enough
+              revision. (At list 3 to 4 hours of daily work is my advise.)
+            </li>
+            <li>
               {" "}
               Project-Based Learning: Apply your knowledge through real-world
               projects, fostering practical skills crucial for the industry.
@@ -27,14 +33,19 @@ const Achievement = () => {
               ensure a thorough understanding and mastery.
             </li>
             <li>
+              Measuring Student Progress: Each module will include a set of
+              projects that students need to complete by following the proper
+              development process. We will be using Git and GitHub for our
+              projects. By evaluating your work on GitHub, we can track your
+              progress and ensure you are mastering the material. Additionally,
+              your work on GitHub is crucial during job searches, as it
+              showcases your skills to potential employers.
+            </li>
+            <li>
               {" "}
               Course Completion Certificate: Upon finishing the course, receive
               a certificate acknowledging your accomplishment from our
               institution.
-            </li>
-            <li>
-              Exam Guidance: Should you wish to certify, we will assist you with
-              exam preparation and booking your exam (your cost)
             </li>
           </ul>
           <strong className="text-lg uppercase">Why you should join Us:</strong>
@@ -59,36 +70,51 @@ const Achievement = () => {
             structures, and algorithms.
           </li>
           <li>
-            Skill Development: Upon completing the course, you will possess
-            robust skills in front-end & back-end web design, API building, and
-            more.
+            Skill Development: Upon completing the course and all the exercises,
+            you will possess robust skills in front-end and back-end web design,
+            API building, and more
           </li>
           <li>
-            Job interviews and your Resumé: Receive guidance on interview
-            preparation, resumé creation, and optimising your LinkedIn profile
-            to enhance your job prospects.
+            Job interviews and your Resumé: You will find resources and
+            guideline on interview preparation, resumé creation, and optimising
+            your LinkedIn profile to enhance your job prospects.
+          </li>
+          <li>
+            Remote Jobs: We will provide you with a list of websites for remote
+            job searches. We encourage students to apply to 10 jobs daily and
+            follow up on their applications. This information will be available
+            2 months before the completion of the course.
           </li>
           <li>
             Remote Work Readiness: Acquire all necessary skills to list yourself
             as an online freelancer, preparing you for the job market.
           </li>
           <li>
-            Course Certification: You will be ready to obtain a certification
-            upon course completion, validating your expertise in MERN stack
-            development (exam at your own cost)
+            Course Certification: We will provide the course completion
+            certificate from Velisa Africa.
           </li>
         </ul>
         <p className="my-4">
           <strong className="text-lg">WHO CAN JOIN:</strong>
         </p>
         <p>
-          Beginners in Web Development: Individuals with basic familiarity in
-          web development are welcome to join and enhance their skills further.
+          Beginners in Web Development: Individuals with basic computer skills
+          and a strong eagerness to learn web development are welcome to join.
+          Be prepared for a long journey and hard work on a daily basis for at
+          least 12 months to achieve mastery.
         </p>
         <p>
           Programming Enthusiasts: Whether you&#39;re new to programming or have
           some experience in other languages, our course is designed to
-          accommodate learners of all levels.
+          accommodate learners of all levels and help you advance your skills
+        </p>
+        <p>
+          Computer Graduates and College Students: Whether you are a recent
+          computer science graduate starting your job search or a current
+          computer science student, this course will significantly enhance your
+          skills. It is designed to improve your logical thinking, develop your
+          programming abilities, and equip you with strong full-stack web
+          development skills.
         </p>
       </div>
     </div>

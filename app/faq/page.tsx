@@ -17,9 +17,10 @@ const Faq = () => {
             What language is the bootcamp taught in?
           </AccordionTrigger>
           <AccordionContent>
-            The bootcamp is taught in English. All the documentation are in
-            English, so all students must have a good level and understanding of
-            written English.
+            The bootcamp is taught in English. All the documentation is in
+            English, so all students must have a good level of understanding of
+            written English. <br /> Please note, the facilitator is of Nepali
+            origin, so there is a slight accent to his English.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
@@ -28,11 +29,13 @@ const Faq = () => {
             background?
           </AccordionTrigger>
           <AccordionContent>
-            You don&#39;t need any technical background to join our Web
-            Development course. We expect three things from our students: be
-            extremely motivated, be curious, and be social. If this sounds like
-            you, we&#39;ll be more than happy to have you on board. You must
-            have basic computer knowledge.
+            No, if you have done some work in web development and know the
+            basics of HTML, CSS, and JavaScript, or if you have any programming
+            skills, and if you are a computer science student, then you can join
+            us. We expect three things from our students: be extremely
+            motivated, be curious, and work hard to achieve your goal of running
+            your own business in web development. If this sounds like you,
+            we&#39;ll be more than happy to have you on board.
           </AccordionContent>
         </AccordionItem>
 
@@ -41,20 +44,19 @@ const Faq = () => {
             How can I prepare for a full-stack web development bootcamp?
           </AccordionTrigger>
           <AccordionContent>
-            Before starting a bootcamp, it&#39; helpful to review basic
-            programming concepts and familiarize yourself with HTML, CSS, and
-            JavaScript. Additionally, maintaining a growth mindset, staying
-            organized, and being prepared to work hard are essential for success
-            in a bootcamp environment. My advise is to work daily at list 3 to 4
+            There are no extra requirements prior to starting class. I just want
+            everyone to maintain a growth mindset, stay organized, and be
+            prepared to work hard, as these are essential for success in a
+            bootcamp environment. My advice is to work daily for at least 3 to 4
             hours.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-4">
-          <AccordionTrigger>Duration of courese</AccordionTrigger>
+          <AccordionTrigger>Duration of the Course</AccordionTrigger>
           <AccordionContent>
-            It&#39; a 9-month course. We will do our best to complete the course
-            within this time frame, but it can be extended by 2 more months if
-            needed.
+            It&#39;s a 9-month course. We will do our best to complete the
+            course within this time frame. If we determine that the group needs
+            more time, we can consider extending the course by an extra month.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-5">
@@ -63,60 +65,57 @@ const Faq = () => {
             Access (Live Class + Recordings) over 9 months?
           </AccordionTrigger>
           <AccordionContent>
-            The Full Access tuition fee is <strong>R2500</strong>, which
-            includes live classes and recordings. The recordings will be
-            available online one hour after each class. The cost covers the
-            complete course, and students will have access to the course for the
-            next 3 years.
+            The Full Access tuition fee is{" "}
+            <strong>R2500.00 + 15% VAT - (Total: R2875.00)</strong>, which
+            includes live classes and recordings over 9 months. The recordings
+            will be available online one hour after each class. The cost covers
+            the complete course, and students will have access to the course for
+            the next 3 years.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-6">
           <AccordionTrigger>
-            How much does the full-stack web development course cost for
-            pre-recorded lectures access?
+            How much does access to the full-stack web development pre-recorded
+            classes cost?
           </AccordionTrigger>
           <AccordionContent>
-            The pre-recorded lectures access costs <strong>R1500</strong>, which
-            includes all our live lectures recordings. The cost covers the
-            complete course, and students will have access to the course for the
-            next 3 years.
+            The pre-recorded video access costs{" "}
+            <strong>R1500.00+ 15% VAT - (Total: R1725.00)</strong>. The cost
+            covers the complete course recordings over 9 month, and students
+            will have access to the course for the next 3 years.
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="item-7">
           <AccordionTrigger>
             Is there any extra support for students who subscribe to
-            pre-recorded lectures?
+            pre-recorded classes?
           </AccordionTrigger>
           <AccordionContent>
-            We will have a weekly 1-hour class that students can join to ask
-            questions or get clarification or revision on common questions asked
-            through email. This class will be also recorded. Mostly this class
-            will be on saturday or sunday. students can ask questions on classes
-            completed.
+            Students can ask questions in the chat group, and you will find
+            responses in our revision classes.
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="item-8">
-          <AccordionTrigger>Any Success Rule</AccordionTrigger>
+          <AccordionTrigger>Success Rule</AccordionTrigger>
           <AccordionContent>
-            Set Clear Goals, No matter what happens you will not divert from
-            your goal for 1 year. No more priority to Entertainment.you have to
-            change you mindset which will help you to change your believe system
-            and u will enjoy coding.
+            In order to be successful: Set clear goals, stay committed to your
+            goal for the next 9 months, complete daily work, revise regularly,
+            follow the guidelines while working on projects.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-9">
           <AccordionTrigger>
             How to achive the goal of becoming fullstack web developer after
-            completion of bootcamp ?
+            completion of course?
           </AccordionTrigger>
           <AccordionContent>
             Solidify fundamentals in HTML, CSS, and JavaScript. Dedicate time to
             practice coding, focusing on data structures, regularly. Make sure
             to complete the daily classwork. Repeat the recorded lectures,
             understand each concept, and practice a minimum of six times. If you
-            dedicate 2 to 3 hours of work daily for nine months, becoming
+            dedicate 2 to 3 hours of work daily for 9 months, becoming
             proficient in full-stack development is achievable. Stay persistent,
             keep learning, and be patient with yourself as you progress toward
             your goal.
@@ -139,13 +138,12 @@ const Faq = () => {
         </AccordionItem>
         <AccordionItem value="item-12">
           <AccordionTrigger>
-            We will also provide additional support to prepare you for a job
-            search.
+            Any additional support to prepare you for a job search?
           </AccordionTrigger>
           <AccordionContent>
-            We offer comprehensive support in several areas to help you succeed
-            in your web development career, including:
-            <ul className="list-disc ml-6 mt-2">
+            We will provide guidelines and documentation in several areas to
+            help you succeed in your web development career, including:
+            <ul className="list-disc ml-6 mt-2 space-y-2">
               <li>Resume building</li>
               <li>Portfolio development</li>
               <li>Improving your GitHub profile</li>

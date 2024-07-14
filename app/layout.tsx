@@ -26,7 +26,9 @@ export default function RootLayout({
       <body className={inter.className} suppressHydrationWarning>
         <div className="grid h-full grid-rows-layout">
           <NavBar />
-          <main className="container mx-auto px-4">{children}</main>
+          <main className="container mx-auto px-4 h-full mt-32">
+            {children}
+          </main>
           <Footer />
         </div>
         <Toaster richColors />
