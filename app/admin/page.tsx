@@ -18,11 +18,15 @@ const AdminPage = async () => {
   return (
     <div className="flex w-full h-full mt-4 gap-4">
       <CardBox
-        title="Full Access"
+        title="Live Access"
         description="Live + Video"
         count={fullAccess}
       />
-      <CardBox title="Off Line" description="Video Access" count={recorded} />
+      <CardBox
+        title="Video Access"
+        description="Video Access"
+        count={recorded}
+      />
     </div>
   );
 };

@@ -42,6 +42,7 @@ export const getUser = async () => {
   } catch (error) {
     console.log(error);
   }
+
   const dbUser = await prisma.user.findUnique({
     where: {
       id: user?.id,

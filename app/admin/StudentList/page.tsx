@@ -52,7 +52,7 @@ const StudentList = async () => {
               <TableCell>{student.course}</TableCell>
               <TableCell className="text-right">{student.payment}</TableCell>
               <TableCell className="flex items-center justify-end space-x-4">
-                <Link href="/">
+                <Link href={`/admin/StudentList/${student.id}`}>
                   <BookAIcon />
                 </Link>
               </TableCell>

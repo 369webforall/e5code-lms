@@ -27,7 +27,7 @@ const CardBox = ({ title, description, count }: Props) => {
       </CardContent>
       <CardFooter>
         <Link href="/admin/StudentList">
-          <Button variant="secondary">Display List</Button>
+          <Button variant="secondary">Student List</Button>
         </Link>
       </CardFooter>
     </Card>

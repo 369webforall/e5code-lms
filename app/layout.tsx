@@ -9,11 +9,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | e5code online coaching",
-    absolute: "e5code online coaching",
+    template: "%s | Velisa Africa online coaching",
+    absolute: "Velisa Africa  online coaching",
   },
   description:
-    "Welcome to online e5code FullStack coaching center.Explore comprehensive online coaching covering Frontend, Backend, MERN Stack.Dive into Data Structures and Algorithms,and DevOps.",
+    "Welcome to online Velisa Africa FullStack coaching center.Explore comprehensive online coaching covering Frontend, Backend, MERN Stack.Dive into Data Structures and Algorithms,and DevOps.",
 };
 
 export default function RootLayout({

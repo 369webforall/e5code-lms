@@ -187,7 +187,7 @@ const SignUpForm = () => {
                     </FormControl>
                     <SelectContent>
                       <SelectItem value="Live Class">Live Class</SelectItem>
-                      <SelectItem value="Recorded Class">
+                      <SelectItem value="Video Access">
                         Recorded lectures
                       </SelectItem>
                     </SelectContent>

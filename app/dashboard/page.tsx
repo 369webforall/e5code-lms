@@ -12,9 +12,9 @@ const Dashboard = async () => {
     redirect("/");
   }
   return (
-    <>
+    <div className="h-screen">
       <header className="border-b-2">
-        <p>Studnet Name: {user.name}</p>
+        <p>Student Name: {user.name}</p>
         <p>Student Id: {user.studentId}</p>
       </header>
       <div className="my-2">
@@ -23,7 +23,7 @@ const Dashboard = async () => {
           to Velsia or any further email.
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

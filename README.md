@@ -1,8 +1,5 @@
 # e5code online coaching center
 
+npx prisma migrate dev --name update-user-profile-relation
 
-callbacks: {
-    session({ session, user }) {
-      session.user.role = user.role;
-      return session;
-    },
+npx prisma migrate deploy
