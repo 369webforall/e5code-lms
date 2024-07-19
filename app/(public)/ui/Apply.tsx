@@ -20,7 +20,7 @@ const HowToApply = () => {
           <li>
             Watch our{" "}
             <Link
-              href="/videos"
+              href="/demo"
               className="hover:text-red-600 font-semibold border-b-2 border-green-600"
             >
               Free videos.
@@ -28,7 +28,9 @@ const HowToApply = () => {
           </li>
           <li>
             After making your final decision about which format you choose, you
-            can proceed with the payment. Instructions will be available in your{" "}
+            can proceed with the payment.You must be logged in to access your
+            Dashboard, Click on Bank Details, Instructions will be available in
+            your{" "}
             <Link
               href="/dashboard"
               className=" border-b-2 hover:border-b-2 hover:text-red-600"
@@ -36,15 +38,6 @@ const HowToApply = () => {
               Dashboard
             </Link>
             .
-          </li>
-          <li>
-            You must be logged in to access your Dashboard and update your
-            profile. This information will be used for generating your course
-            completion certificate.
-          </li>
-          <li>
-            Once you have completed your profile, click on Payment Details for
-            the payment instructions.
           </li>
           <li>
             When making a payment at your bank by EFT, you must use your student
@@ -56,6 +49,11 @@ const HowToApply = () => {
             Student ID in the subject line, which is available in your
             Dashboard.
           </li>
+          <li>
+            Update your profile. This information will be used for generating
+            your course completion certificate.
+          </li>
+
           <li>
             We will add you to our chat group where you will find all further
             instructions.{" "}

@@ -4,10 +4,15 @@ const Courses = async () => {
   return (
     <div className="container mx-auto mt-4">
       <p>
-        Link for course content we will update as class start. we will share
-        content throuhg github link{" "}
+        <span className="text-2xl font-semibold">Github Link</span>{" "}
+        <a
+          className="border-b border-red-600"
+          href="https://github.com/VelisaAfrica/MERN01/tree/main/1_Intoduction"
+          target="_blank"
+        >
+          Study Materials
+        </a>
       </p>
-      <p>Link for video will be available every day after class.</p>
     </div>
   );
 };
