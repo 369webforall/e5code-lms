@@ -45,7 +45,7 @@ const CourseSummary = () => {
   ];
 
   return (
-    <div className="container mx-auto mt-4">
+    <div className="container mx-auto mt-4 py-10">
       <h2 className="text-2xl font-semibold border-b">Course cover</h2>
       <p className="text-orange-600 font-semibold my-2">
         Duration of course: 9 month - 1 hour class (Mon-Fri), Time: 3:30 PM to
@@ -69,8 +69,8 @@ interface CourseProps {
 
 const CourseCard = ({ title, courses }: CourseProps) => {
   return (
-    <div className="flex-1 rounded overflow-hidden shadow-lg border">
-      <div className="px-6 py-4">
+    <div className="flex-1 rounded overflow-hidden shadow-lg border py-6">
+      <div className="px-4 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>
         <div className="flex flex-wrap">
           {courses.map((course, index) => (

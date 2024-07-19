@@ -9,91 +9,96 @@ const Achievement = () => {
         <p>
           <strong className="text-lg">TRAINING INCLUDES:</strong>
         </p>
-        <p>
-          <ul className="list-disc ml-6 space-y-2 mb-4">
-            <li>
-              Theory and Practical Sessions: Dive into comprehensive theoretical
-              concepts accompanied by hands-on practical sessions to reinforce
-              learning.
-            </li>
-            <li>
-              Daily Assignments: The sucsess of this couse is entirly dependent
-              on you and your ability to practice all the concepts taught in
-              each class, work on the assigned projects, and you do enough
-              revision. (At list 3 to 4 hours of daily work is my advise.)
-            </li>
-            <li>
-              {" "}
-              Project-Based Learning: Apply your knowledge through real-world
-              projects, fostering practical skills crucial for the industry.
-            </li>
-            <li>
-              {" "}
-              In-Depth Topic Coverage: Each topic is explored in detail to
-              ensure a thorough understanding and mastery.
-            </li>
-            <li>
-              Measuring Student Progress: Each module will include a set of
-              projects that students need to complete by following the proper
-              development process. We will be using Git and GitHub for our
-              projects. By evaluating your work on GitHub, we can track your
-              progress and ensure you are mastering the material. Additionally,
-              your work on GitHub is crucial during job searches, as it
-              showcases your skills to potential employers.
-            </li>
-            <li>
-              {" "}
-              Course Completion Certificate: Upon finishing the course, receive
-              a certificate acknowledging your accomplishment from our
-              institution.
-            </li>
-          </ul>
-          <strong className="text-lg uppercase">Why you should join Us:</strong>
-        </p>
-        <ul className="list-disc ml-6 space-y-2">
+        <ul className="list-disc ml-6 space-y-2 mb-4">
           <li>
-            Free Demo Class: Experience our teaching style by watching 3
-            complimentary video demo classes.
+            Theory and Practical Sessions: Dive into comprehensive theoretical
+            concepts accompanied by hands-on practical sessions to reinforce
+            learning.
           </li>
           <li>
-            Convenient Registration and Payment Methods: Enjoy easy payment
-            options for hassle-free enrolment.
+            Daily Assignments: The sucsess of this couse is entirly dependent on
+            you and your ability to practice all the concepts taught in each
+            class, work on the assigned projects, and you do enough revision.
+            (At list 3 to 4 hours of daily work is my advise.)
           </li>
           <li>
-            Recorded Classes: Missed a class? No worries! Access recorded
-            sessions at your convenience, to stay on track.
+            {" "}
+            Project-Based Learning: Apply your knowledge through real-world
+            projects, fostering practical skills crucial for the industry.
           </li>
           <li>
-            Project-Based Learning: Our comprehensive course structure includes
-            JavaScript testing, and problem-solving from basic to advanced
-            levels, helping you master programming fundamentals, data
-            structures, and algorithms.
+            {" "}
+            In-Depth Topic Coverage: Each topic is explored in detail to ensure
+            a thorough understanding and mastery.
           </li>
           <li>
-            Skill Development: Upon completing the course and all the exercises,
-            you will possess robust skills in front-end and back-end web design,
-            API building, and more
+            Measuring Student Progress: Each module will include a set of
+            projects that students need to complete by following the proper
+            development process. We will be using Git and GitHub for our
+            projects. By evaluating your work on GitHub, we can track your
+            progress and ensure you are mastering the material. Additionally,
+            your work on GitHub is crucial during job searches, as it showcases
+            your skills to potential employers.
           </li>
           <li>
-            Job interviews and your Resumé: You will find resources and
-            guideline on interview preparation, resumé creation, and optimising
-            your LinkedIn profile to enhance your job prospects.
-          </li>
-          <li>
-            Remote Jobs: We will provide you with a list of websites for remote
-            job searches. We encourage students to apply to 10 jobs daily and
-            follow up on their applications. This information will be available
-            2 months before the completion of the course.
-          </li>
-          <li>
-            Remote Work Readiness: Acquire all necessary skills to list yourself
-            as an online freelancer, preparing you for the job market.
-          </li>
-          <li>
-            Course Certification: We will provide the course completion
-            certificate from Velisa Africa.
+            {" "}
+            Course Completion Certificate: Upon finishing the course, receive a
+            certificate acknowledging your accomplishment from our institution.
           </li>
         </ul>
+
+        <div>
+          <p>
+            <strong className="text-lg uppercase">
+              Why you should join Us:
+            </strong>
+          </p>
+          <ul className="list-disc ml-6 space-y-2">
+            <li>
+              Free Demo Class: Experience our teaching style by watching 3
+              complimentary video demo classes.
+            </li>
+            <li>
+              Convenient Registration and Payment Methods: Enjoy easy payment
+              options for hassle-free enrolment.
+            </li>
+            <li>
+              Recorded Classes: Missed a class? No worries! Access recorded
+              sessions at your convenience, to stay on track.
+            </li>
+            <li>
+              Project-Based Learning: Our comprehensive course structure
+              includes JavaScript testing, and problem-solving from basic to
+              advanced levels, helping you master programming fundamentals, data
+              structures, and algorithms.
+            </li>
+            <li>
+              Skill Development: Upon completing the course and all the
+              exercises, you will possess robust skills in front-end and
+              back-end web design, API building, and more
+            </li>
+            <li>
+              Job interviews and your Resumé: You will find resources and
+              guideline on interview preparation, resumé creation, and
+              optimising your LinkedIn profile to enhance your job prospects.
+            </li>
+            <li>
+              Remote Jobs: We will provide you with a list of websites for
+              remote job searches. We encourage students to apply to 10 jobs
+              daily and follow up on their applications. This information will
+              be available 2 months before the completion of the course.
+            </li>
+            <li>
+              Remote Work Readiness: Acquire all necessary skills to list
+              yourself as an online freelancer, preparing you for the job
+              market.
+            </li>
+            <li>
+              Course Certification: We will provide the course completion
+              certificate from Velisa Africa.
+            </li>
+          </ul>
+        </div>
         <p className="my-4">
           <strong className="text-lg">WHO CAN JOIN:</strong>
         </p>

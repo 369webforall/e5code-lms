@@ -30,6 +30,7 @@ export default async function NavBar() {
             <Link href="/dashboard">Dashboard</Link>
             <Link href="/faq">Faq</Link>
             <Link href="/contact">Contact</Link>
+            <Link href="/demo">Demo_Video</Link>
           </nav>
         </div>
         <div className="flex items-center space-x-2 ms-auto md:col-span-3">

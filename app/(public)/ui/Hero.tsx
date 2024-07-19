@@ -6,7 +6,7 @@ import { MoveDownIcon } from "lucide-react";
 const Hero = () => {
   return (
     <>
-      <div className="p-4 bg-purple-50">
+      <div className="p-8 bg-purple-50 rounded-sm">
         <div className="grid md:grid-cols-2 gap-4">
           <div className="container mx-auto text-center flex flex-col justify-center">
             <h1 className="text-4xl font-bold mb-4 text-green-600">

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const HowToApply = () => {
   return (
-    <div className="bg-pink-50 py-6" id="how-to-apply">
+    <div className="bg-pink-50 py-32" id="how-to-apply">
       <div className="container mx-auto">
         <h1 className="text-2xl font-bold mb-4 text-green-600">
           How to Apply for Our MERN stack Web Development Course.

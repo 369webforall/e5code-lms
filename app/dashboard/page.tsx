@@ -20,7 +20,7 @@ const Dashboard = async () => {
       <div className="my-2">
         <p>
           Notice: Please use your Student ID code when sending the payment slip
-          to Velsia or any further email.
+          to Velisa or any further email.
         </p>
       </div>
     </div>
