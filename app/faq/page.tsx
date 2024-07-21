@@ -8,8 +8,8 @@ import {
 
 const Faq = () => {
   return (
-    <div className="max-w-6xl mx-auto mt-4">
-      <h2 className="text-2xl font-semibold">FAQ</h2>
+    <div className="wrapper">
+      <h2 className="h2-bold border-b">FAQ</h2>
 
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
@@ -20,7 +20,8 @@ const Faq = () => {
             The bootcamp is taught in English. All the documentation is in
             English, so all students must have a good level of understanding of
             written English. <br /> Please note, the facilitator is of Nepali
-            origin, so there is a slight accent to his English.
+            origin, so there is an accent to his English, but you will soon get
+            used to it.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
@@ -48,7 +49,7 @@ const Faq = () => {
             everyone to maintain a growth mindset, stay organized, and be
             prepared to work hard, as these are essential for success in a
             bootcamp environment. My advice is to work daily for at least 3 to 4
-            hours.
+            hours, after each class, to practice what you have learned.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-4">
@@ -124,8 +125,11 @@ const Faq = () => {
         <AccordionItem value="item-10">
           <AccordionTrigger>Course Completion Certificate</AccordionTrigger>
           <AccordionContent>
-            Upon finishing the course, receive a certificate acknowledging your
-            accomplishment from our institution.
+            Upon finishing the course, you will receive a certificate
+            acknowledging your accomplishment from our institution. If you wish
+            to obtain a globally recognized certification in JavaScript, this
+            will be at your own cost, and you are welcome to ask for our
+            assistance in selecting the best certification to take.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-11">

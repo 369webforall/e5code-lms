@@ -2,11 +2,15 @@ import NavBar from "../components/NavBar";
 import Footer from "./(public)/ui/footer";
 import { Toaster } from "sonner";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins as FontSans } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
+const fontSans = FontSans({
+  subsets: ["latin"],
+  weight: ["400", "600"],
+  variable: "--font-sans",
+});
+import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: {
     template: "%s | Velisa Africa online coaching",
@@ -23,12 +27,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className} suppressHydrationWarning>
-        <div className="grid h-full grid-rows-layout">
+      <body
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          fontSans.variable
+        )}
+        suppressHydrationWarning
+      >
+        <div className="flex h-screen flex-col">
           <NavBar />
-          <main className="container mx-auto px-4 h-full mt-32">
-            {children}
-          </main>
+          <main className="flex-1 wrapper">{children}</main>
           <Footer />
         </div>
         <Toaster richColors />
