@@ -1,5 +1,6 @@
+import Link from "next/link";
 import React from "react";
-
+import { Button } from "@/components/ui/button";
 const AboutVision = () => {
   return (
     <section className="bg-gray-100 p-4">
@@ -47,7 +48,7 @@ const AboutVision = () => {
         </ul>
       </div>
       <div className="my-4 border-2 p-4">
-        <h2 className="h2-bold text-purple-600">Tuition Fee</h2>
+        <h2 className="h2-bold text-green-600 border-b mb-4">Tuition Fee</h2>
 
         <h3 className="h3-bold">Full Access - (Live Class + Recording)</h3>
         <p className="text-lg font-bold">
@@ -58,7 +59,9 @@ const AboutVision = () => {
         <p className="text-lg font-bold">
           - R1500.00 + 15% VAT (Total: R1725.00)
         </p>
-
+        <Button asChild className="mt-4">
+          <Link href="/dashboard/bank">EFT Bank Transfer</Link>
+        </Button>
         <p className="text-md italic mt-4">
           Velsia will provide the account information for fund transfer. Please
           note there will be no refund if a student wants to quit. However, you

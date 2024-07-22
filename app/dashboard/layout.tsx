@@ -12,11 +12,9 @@ async function RootLayout({
     redirect("/");
   }
   return (
-    <div className="h-screen w-full">
-      <div className="flex h-full gap-2 py-4">
-        <Sidebar />
-        <div className="flex-1 px-4">{children}</div>
-      </div>
+    <div className="flex gap-2 h-full">
+      <Sidebar />
+      <div className="flex-1">{children}</div>
     </div>
   );
 }

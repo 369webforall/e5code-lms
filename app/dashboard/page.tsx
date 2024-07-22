@@ -12,10 +12,10 @@ const Dashboard = async () => {
     redirect("/");
   }
   return (
-    <div className="h-screen">
+    <div>
       <header className="border-b-2">
         <p>Student Name: {user.name}</p>
-        <p>Student Id: {user.studentId}</p>
+        <p className="text-xl font-semibold">Student Id: {user.studentId}</p>
       </header>
       <div className="my-2">
         <p>

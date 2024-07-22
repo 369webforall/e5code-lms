@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 const Sidebar = async () => {
   return (
-    <div className="w-[100px]">
-      <aside className="flex flex-col gap-2 border-r h-full">
+    <div className="w-[150px] border-r h-full">
+      <aside className="flex flex-col gap-2">
         <Link href="/dashboard">Dashboard</Link>
         <Link href="/dashboard/courses">Course</Link>
         <Link href="/dashboard/bank">Bank Details</Link>
