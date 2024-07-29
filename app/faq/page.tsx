@@ -71,7 +71,7 @@ const Faq = () => {
             includes live classes and recordings over 9 months. The recordings
             will be available online one hour after each class. The cost covers
             the complete course, and students will have access to the course for
-            the next 3 years.
+            extra 3 months.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-6">
@@ -83,7 +83,7 @@ const Faq = () => {
             The pre-recorded video access costs{" "}
             <strong>R1500.00+ 15% VAT - (Total: R1725.00)</strong>. The cost
             covers the complete course recordings over 9 month, and students
-            will have access to the course for the next 3 years.
+            will have access to the course for extra 3 months.
           </AccordionContent>
         </AccordionItem>
 

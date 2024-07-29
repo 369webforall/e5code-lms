@@ -62,11 +62,15 @@ const AboutVision = () => {
         <Button asChild className="mt-4">
           <Link href="/dashboard/bank">EFT Bank Transfer</Link>
         </Button>
+        <p>
+          Note please login to your account before u can access the back
+          details.
+        </p>
         <p className="text-md italic mt-4">
           Velsia will provide the account information for fund transfer. Please
-          note there will be no refund if a student wants to quit. However, you
-          will have access to the classes at any time for the next 3 years, so
-          you are most welcome to restart the learning journey.
+          note there will be no refund if a student wants to quit. However, we
+          will allow student to join next session, so you are most welcome to
+          restart the learning journey.
         </p>
       </div>
     </section>

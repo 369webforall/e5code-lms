@@ -7,7 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { zodResolver } from "@hookform/resolvers/zod";
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import {
   Form,
@@ -32,6 +32,7 @@ import { Button } from "@/components/ui/button";
 import { signUp } from "./auth.action";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
+import { PasswordInput } from "@/components/ui/password-input";
 
 export const signUpSchema = z
   .object({
@@ -60,6 +61,7 @@ function generateStudentId() {
 
 const SignUpForm = () => {
   const router = useRouter();
+  const [show, setShow] = useState(false);
   const id = generateStudentId();
   const form = useForm<z.infer<typeof signUpSchema>>({
     resolver: zodResolver(signUpSchema),
@@ -135,8 +137,7 @@ const SignUpForm = () => {
                 <FormItem>
                   <FormLabel>Password (8 character required)</FormLabel>
                   <FormControl>
-                    <Input
-                      type="password"
+                    <PasswordInput
                       placeholder="Enter your password ...."
                       {...field}
                       onChange={(e) => {
@@ -156,8 +157,7 @@ const SignUpForm = () => {
                 <FormItem>
                   <FormLabel>Confirm password</FormLabel>
                   <FormControl>
-                    <Input
-                      type="password"
+                    <PasswordInput
                       placeholder="Please confirm your password"
                       {...field}
                       onChange={(e) => {

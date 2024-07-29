@@ -25,6 +25,7 @@ import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 import { signIn } from "./auth.action";
+import { PasswordInput } from "@/components/ui/password-input";
 
 export const signInSchema = z.object({
   email: z.string().email(),
@@ -87,8 +88,7 @@ const SignInForm = () => {
                 <FormItem>
                   <FormLabel>Password</FormLabel>
                   <FormControl>
-                    <Input
-                      type="password"
+                    <PasswordInput
                       placeholder="Enter your password..."
                       {...field}
                       onChange={(e) => {
