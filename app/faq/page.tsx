@@ -30,13 +30,14 @@ const Faq = () => {
             background?
           </AccordionTrigger>
           <AccordionContent>
-            No, if you have done some work in web development and know the
-            basics of HTML, CSS, and JavaScript, or if you have any programming
-            skills, and if you are a computer science student, then you can join
-            us. We expect three things from our students: be extremely
-            motivated, be curious, and work hard to achieve your goal of running
-            your own business in web development. If this sounds like you,
-            we&#39;ll be more than happy to have you on board.
+            Yes, we start from the very basics. Whether you are a beginner or
+            have some experience in web development and know the basics of HTML,
+            CSS, and JavaScript, you can join us. If you have any programming
+            skills or are a computer science student, you are also welcome. We
+            expect three things from our students: be extremely motivated, be
+            curious, and work hard to achieve your goal of running your own
+            business in web development. If this sounds like you, we&#39;ll be
+            more than happy to have you on board.
           </AccordionContent>
         </AccordionItem>
 
@@ -108,7 +109,7 @@ const Faq = () => {
         </AccordionItem>
         <AccordionItem value="item-9">
           <AccordionTrigger>
-            How to achive the goal of becoming fullstack web developer after
+            How to achieve the goal of becoming fullstack web developer after
             completion of course?
           </AccordionTrigger>
           <AccordionContent>
