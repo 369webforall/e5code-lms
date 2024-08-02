@@ -9,7 +9,7 @@ const BankDetailsPage = async () => {
   return (
     <div>
       <h1 className="h1-bold mt-2 mb-2 border-b">
-        Stundet Id: {user.studentId}
+        Student Id: {user.studentId}
       </h1>
       <p className="mb-2">
         - Please use your Student ID as the reference number when making the

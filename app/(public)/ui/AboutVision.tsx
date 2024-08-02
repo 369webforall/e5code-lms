@@ -63,14 +63,14 @@ const AboutVision = () => {
           <Link href="/dashboard/bank">EFT Bank Transfer</Link>
         </Button>
         <p>
-          Note please login to your account before u can access the back
-          details.
+          Note: Please login to your account before access to our back details.
         </p>
         <p className="text-md italic mt-4">
-          Velsia will provide the account information for fund transfer. Please
-          note there will be no refund if a student wants to quit. However, we
-          will allow student to join next session, so you are most welcome to
-          restart the learning journey.
+          Velisa will provide our account information for your electronic fund
+          transfer. Please note that if a student wishes to leave the program,
+          there will be no refund. However, if the student wishes to rejoin the
+          next live session in the following year, that student will be most
+          welcome to restart their learning journey.
         </p>
       </div>
     </section>
