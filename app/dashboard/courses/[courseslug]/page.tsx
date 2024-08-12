@@ -29,7 +29,7 @@ const CourseDetailsPage = ({ params }: CourseDetailsPageProps) => {
 
   // Use SWR to fetch and cache data
   const { data: courses, error } = useSWR<CourseData[]>(
-    `http://localhost:3000/api/courses/${params.courseslug}`,
+    `https://e5code.com/api/courses/${params.courseslug}`,
     fetcher
   );
 
