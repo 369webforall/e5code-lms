@@ -33,6 +33,9 @@ model User {
 enum UserRole {
   admin
   student
+  full
+  frontend
+  video
   public
 }
 
@@ -71,4 +74,23 @@ model Profile {
   user      User     @relation(references: [id], fields: [userId], onDelete: Cascade)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+}
+
+model CourseCategory {
+  id         String   @id @default(cuid())
+  courseslug String   @unique
+  courseName String
+  courses    Course[]
+}
+
+model Course {
+  id         String  @id @default(cuid())
+  courseslug String
+  title      String
+  github     String?
+  video      String?
+
+  category CourseCategory @relation(fields: [courseslug], references: [courseslug])
+
+  @@index([courseslug])
 }

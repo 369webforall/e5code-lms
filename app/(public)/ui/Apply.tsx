@@ -98,12 +98,8 @@ const HowToApply = () => {
       <div className="grid md:grid-cols-2 gap-4">
         <div className="border-2 border-orange-500 p-4">
           <h2 className="h2-bold mb-2 border-b-2 border-green-600">
-            Join for live classes
+            MERN stack (live class + recorded video)
           </h2>
-          <p className="mb-2">
-            Get full access to live classes and recorded video
-          </p>
-          <p className="mb-2">Video will be available after each class</p>
           <p className="mb-2">Price: R2500.00 + 15% VAT (Total: R2875.00)</p>
           <p className="mb-4">Course Duration: 9 Months</p>
           <Button variant="link">
@@ -114,11 +110,23 @@ const HowToApply = () => {
         </div>
         <div className="border-2 border-orange-500 p-4">
           <h2 className="h2-bold mb-2  border-b-2 border-green-600">
-            Join for pre-recorded classes
+            Frontend web development (live class + recorded video)
+          </h2>
+          <p className="mb-2">Video will be available after each class</p>
+          <p className="mb-2">Price: R1300.00 + 15% VAT (Total: R1495.00)</p>
+          <p className="mb-4">Course Duration: 6 months</p>
+          <Button variant="link">
+            <Link href={"/authenticate"} className="hover:text-red-600">
+              Login or New Account
+            </Link>
+          </Button>
+        </div>
+        <div className="border-2 border-orange-500 p-4">
+          <h2 className="h2-bold mb-2  border-b-2 border-green-600">
+            MERN stack (recorded video)
           </h2>
           <p className="mb-2">Access pre-recorded classes at your own pace.</p>
           <p className="mb-2">Video will be available after each class</p>
-
           <p className="mb-2">Price: R1500.00 + 15% VAT (Total: R1725.00)</p>
           <p className="mb-4">Course Duration: 9 months</p>
           <Button variant="link">

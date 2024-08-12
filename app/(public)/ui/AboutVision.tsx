@@ -59,6 +59,10 @@ const AboutVision = () => {
         <p className="text-lg font-bold">
           - R1500.00 + 15% VAT (Total: R1725.00)
         </p>
+        <h3 className="h3-bold">Frontend - (Live Class + Recording)</h3>
+        <p className="text-lg font-bold">
+          - R1300.00 + 15% VAT (Total: R1495.00)
+        </p>
         <Button asChild className="mt-4">
           <Link href="/dashboard/bank">EFT Bank Transfer</Link>
         </Button>

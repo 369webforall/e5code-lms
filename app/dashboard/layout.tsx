@@ -1,7 +1,6 @@
 import Sidebar from "./ui/side-bar";
 import { getUser } from "@/lib/lucia";
 import { redirect } from "next/navigation";
-
 async function RootLayout({
   children,
 }: Readonly<{

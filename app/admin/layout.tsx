@@ -23,6 +23,12 @@ async function RootLayout({
             <Link href="/admin/StudentList" className="text-white text-lg">
               StudentList
             </Link>
+            <Link href="/admin/category" className="text-white text-lg">
+              Add Category
+            </Link>
+            <Link href="/admin/course" className="text-white text-lg">
+              Add Course
+            </Link>
           </nav>
         </nav>
         <div className="flex-1 px-4">{children}</div>
