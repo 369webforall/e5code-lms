@@ -113,7 +113,7 @@ const HowToApply = () => {
             Frontend web development (live class + recorded video)
           </h2>
           <p className="mb-2">Video will be available after each class</p>
-          <p className="mb-2">Price: R1300.00 + 15% VAT (Total: R1495.00)</p>
+          <p className="mb-2">Price: R1500.00 + 15% VAT (Total: R1725.00)</p>
           <p className="mb-4">Course Duration: 6 months</p>
           <Button variant="link">
             <Link href={"/authenticate"} className="hover:text-red-600">

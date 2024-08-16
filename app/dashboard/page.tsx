@@ -27,6 +27,9 @@ const Dashboard = async () => {
             Once the payment is done, you can send an email with your payment
             slip to Velisa.
           </li>
+          <li className="list-disc text-lg font-semibold">
+            Email: info@velisaafrica.co.za
+          </li>
           <li className="list-disc">
             After sending the email, you can fill out the profile form. In case
             you don&#39;t have a GitHub or LinkedIn account, please create one.
