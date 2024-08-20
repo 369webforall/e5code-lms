@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import { logOut } from "@/app/authenticate/auth.action";
 
 type Props = {

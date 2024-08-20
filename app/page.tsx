@@ -9,8 +9,6 @@ export default function Home() {
       <Hero />
       <CourseSummary />
       <HowToApply />
-      <Achievement />
-      <AboutVision />
     </>
   );
 }

@@ -1,4 +1,4 @@
-import NavBar from "../components/NavBar";
+import NavBar from "@/components/Navbar/NavBar";
 import Footer from "./(public)/ui/footer";
 import { Toaster } from "sonner";
 import type { Metadata } from "next";
