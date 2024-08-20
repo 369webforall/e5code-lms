@@ -67,7 +67,7 @@ const AboutVision = () => {
           <Link href="/dashboard/bank">EFT Bank Transfer</Link>
         </Button>
         <p>
-          Note: Please login to your account before access to our back details.
+          Note: Please login to your account before access to our bank details.
         </p>
         <p className="text-md italic mt-4">
           Velisa will provide our account information for your electronic fund
