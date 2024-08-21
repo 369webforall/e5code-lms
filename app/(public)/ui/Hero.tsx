@@ -16,7 +16,7 @@ const Hero = () => {
 
             <div className="max-w-2xl mx-auto p-4  flex flex-col gap-2 items-center justify-center">
               <h1 className="text-center text-xl">New Session on MERN Stack</h1>
-              <h2 className="text-center text-xl">From August 20, 2024</h2>
+              <h2 className="text-center text-xl">Starting soon</h2>
               <p>
                 Visit the{" "}
                 <Link href="/faq">

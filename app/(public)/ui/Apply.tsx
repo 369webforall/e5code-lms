@@ -9,7 +9,7 @@ const HowToApply = () => {
         How to Apply for Our MERN stack Web Development Course.
       </h1>
       <p className="font-semibold mb-2 text-xl">
-        The course is available in two different formats
+        The course is available in Three different formats
       </p>
       <ul className="list-disc mb-4 space-y-2 px-8">
         <li>
