@@ -104,7 +104,7 @@ export default function Price() {
       features: [
         "Join live class",
         "Access to recorded video",
-        "Couse duration 9 months",
+        "Course duration 9 months",
         "Total price includes 15% VAT",
       ],
       actionLabel: "EFT Bank Transfer",
@@ -116,7 +116,7 @@ export default function Price() {
       features: [
         "Join live class",
         "Access to recorded video",
-        "Couse duration 6 months",
+        "Course duration 6 months",
         "Total price includes 15% VAT",
       ],
       actionLabel: "EFT Bank Transfer",
@@ -127,7 +127,7 @@ export default function Price() {
       description: "Access to recorded video only",
       features: [
         "Access to recorded video",
-        "Couse duration 9 months",
+        "Course duration 9 months",
         "Total price includes 15% VAT",
       ],
       actionLabel: "EFT Bank Transfer",

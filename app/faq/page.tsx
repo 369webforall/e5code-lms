@@ -72,7 +72,7 @@ const Faq = () => {
             includes live classes and recordings over 9 months. The recordings
             will be available online one hour after each class. The cost covers
             the complete course, and students will have access to the course for
-            extra 3 months.
+            an extra 3 months.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-6">
@@ -83,12 +83,25 @@ const Faq = () => {
           <AccordionContent>
             The pre-recorded video access costs{" "}
             <strong>R1500.00+ 15% VAT - (Total: R1725.00)</strong>. The cost
-            covers the complete course recordings over 9 month, and students
-            will have access to the course for extra 3 months.
+            covers the complete course recordings over 9 months, and students
+            will have access to the course for an extra 3 months.
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="item-7">
+          <AccordionTrigger>
+            How much does the frontend web development course cost over 6
+            months?
+          </AccordionTrigger>
+          <AccordionContent>
+            The frontend web development tuition fee is
+            <strong>R1500.00+ 15% VAT - (Total: R1725.00)</strong>. The cost
+            covers over 6 months, and students will have access to the course
+            for an extra 3 months.
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="item-8">
           <AccordionTrigger>
             Is there any extra support for students who subscribe to
             pre-recorded classes?
@@ -99,7 +112,7 @@ const Faq = () => {
           </AccordionContent>
         </AccordionItem>
 
-        <AccordionItem value="item-8">
+        <AccordionItem value="item-9">
           <AccordionTrigger>Success Rule</AccordionTrigger>
           <AccordionContent>
             In order to be successful: Set clear goals, stay committed to your
@@ -107,7 +120,7 @@ const Faq = () => {
             follow the guidelines while working on projects.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-9">
+        <AccordionItem value="item-10">
           <AccordionTrigger>
             How to achieve the goal of becoming fullstack web developer after
             completion of course?
@@ -123,7 +136,7 @@ const Faq = () => {
             your goal.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-10">
+        <AccordionItem value="item-11">
           <AccordionTrigger>Course Completion Certificate</AccordionTrigger>
           <AccordionContent>
             Upon finishing the course, you will receive a certificate
@@ -133,7 +146,7 @@ const Faq = () => {
             assistance in selecting the best certification to take.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-11">
+        <AccordionItem value="item-12">
           <AccordionTrigger>Good Internet Connection</AccordionTrigger>
           <AccordionContent>
             A stable and fast internet connection is essential for accessing
@@ -141,7 +154,7 @@ const Faq = () => {
             discussions and for a smooth learning experience.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-12">
+        <AccordionItem value="item-13">
           <AccordionTrigger>
             Any additional support to prepare you for a job search?
           </AccordionTrigger>

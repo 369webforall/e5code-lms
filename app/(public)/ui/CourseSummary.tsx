@@ -48,7 +48,7 @@ const CourseSummary = () => {
     <div className="mt-4">
       <h2 className="h2-bold border-b">Course cover</h2>
       <p className="text-orange-600 font-semibold my-2">
-        Duration of course: 9 month - 1 hour class (Mon-Fri), Time: 3:30 PM to
+        Duration of course: 9 months - 1 hour class (Mon-Fri), Time: 3:30 PM to
         4:30 PM (SAST)
       </p>
       <div className="gap-4 md:flex my-2">
