@@ -14,7 +14,7 @@ const CourseDetails = ({ course }: { course: Props }) => {
       <div className="w-full h-full">
         <p className="my-2">{course.title}</p>
         <p className="my-2">
-          <span className="font-semibold">Github Link</span>{" "}
+          <span className="font-semibold">Class Resource</span>{" "}
           <a
             className="border-b border-red-600"
             href={course.github}
