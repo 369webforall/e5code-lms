@@ -26,9 +26,9 @@ const BankDetailsPage = async () => {
       </h2>
 
       <p>Bank Name: Standard Bank</p>
-      <p>Account Holder Name: John Doe</p>
-      <p>Account Number: 123456789</p>
-      <p>Branch Code: 051001</p>
+      <p>Account Holder Name: Velisa Africa</p>
+      <p>Acc nr: 072820381</p>
+      <p>Branch: 000909</p>
     </div>
   );
 };
