@@ -188,8 +188,9 @@ const SignUpForm = () => {
                     <SelectContent>
                       <SelectItem value="Live Class">Live Class</SelectItem>
                       <SelectItem value="Video Access">
-                        Recorded lectures
+                        Recorded Class
                       </SelectItem>
+                      <SelectItem value="frontend">Frontend</SelectItem>
                     </SelectContent>
                   </Select>
                   <FormMessage />
