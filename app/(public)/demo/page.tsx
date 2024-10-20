@@ -7,10 +7,16 @@ const Demo = () => {
       <div>
         <h2 className="text-xl mb-4">MERN Stack Roadmap</h2>
         <BunnyVideo />
-      </div>
-      <div>
-        <h2 className="text-xl mb-4">JavaScript Basic</h2>
-        <Video id="lKFWC-OzZZ8" />
+
+        <div className="mt-4">
+          <a
+            href="https://abrasive-beetle-e95.notion.site/MERN-STACK-ROAD-MAP-12466335ef9f800db261e7f28a0e2439"
+            target="_blank"
+            className="text-orange-600 font-medium text-lg"
+          >
+            MERN Stack Roadmap & Syllabus
+          </a>
+        </div>
       </div>
     </div>
   );
