@@ -16,7 +16,16 @@ const Hero = () => {
 
             <div className="max-w-2xl mx-auto p-4  flex flex-col gap-2 items-center justify-center">
               <h1 className="text-center text-xl">New Session on MERN Stack</h1>
-              <h2 className="text-center text-xl">Starting soon</h2>
+              <h2 className="text-center text-xl">
+                Class starting from 18 November 2024
+              </h2>
+              <a
+                href="https://discord.gg/KxgEvmvVWK"
+                target="_blank"
+                className="text-xl text-purple-600 text-center"
+              >
+                Join Discord Channel
+              </a>
               <p>
                 Visit the{" "}
                 <Link href="/faq">

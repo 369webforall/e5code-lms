@@ -40,6 +40,27 @@ const Demo = () => {
           </a>
         </div>
       </div>
+      <div>
+        <h2 className="text-xl mb-4">HTML Basic - Class 2 - Project</h2>
+        <div className="relative pt-[56.25%]">
+          <iframe
+            src="https://iframe.mediadelivery.net/embed/285932/228214f6-48fe-4445-a11c-6b5a03804e81?autoplay=false&loop=false&muted=false&preload=false&responsive=true"
+            loading="lazy"
+            className="absolute top-0 left-0 w-full h-full border-0"
+            allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="mt-4">
+          <a
+            href="https://abrasive-beetle-e95.notion.site/Projects-12766335ef9f8077a359c57eaeaad11c"
+            target="_blank"
+            className="text-orange-600 font-medium text-lg hover:border-b"
+          >
+            HTML Basic - Project
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

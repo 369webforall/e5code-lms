@@ -39,6 +39,19 @@ const Dashboard = async () => {
             again, if you need to make any changes.
           </li>
         </ul>
+
+        <div className="my-4">
+          <h2 className="my-2 text-2xl">
+            Welcome to our communication chat room.
+          </h2>
+          <a
+            href="https://discord.gg/KxgEvmvVWK"
+            target="_blank"
+            className="text-xl text-purple-600"
+          >
+            Join Discord Channel
+          </a>
+        </div>
       </div>
     </div>
   );
