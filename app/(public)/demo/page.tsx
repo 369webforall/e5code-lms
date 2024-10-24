@@ -41,7 +41,7 @@ const Demo = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-xl mb-4">HTML Basic - Class 3</h2>
+        <h2 className="text-xl mb-4">HTML Basic - Class 2 - Project</h2>
         <div className="relative pt-[56.25%]">
           <iframe
             src="https://iframe.mediadelivery.net/embed/285932/228214f6-48fe-4445-a11c-6b5a03804e81?autoplay=false&loop=false&muted=false&preload=false&responsive=true"
@@ -62,7 +62,7 @@ const Demo = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-xl mb-4">HTML Basic - Class 2 - Project</h2>
+        <h2 className="text-xl mb-4">HTML Basic - Class 3</h2>
         <div className="relative pt-[56.25%]">
           <iframe
             src="https://iframe.mediadelivery.net/embed/285932/374d187b-f0bb-4ddc-8065-7b1468182fe1?autoplay=false&loop=false&muted=false&preload=false&responsive=true"
