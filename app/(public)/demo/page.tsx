@@ -82,6 +82,48 @@ const Demo = () => {
           </a>
         </div>
       </div>
+      <div>
+        <h2 className="text-xl mb-4">HTML Basic - Class 4</h2>
+        <div className="relative pt-[56.25%]">
+          <iframe
+            src="https://iframe.mediadelivery.net/embed/285932/aa8b29d3-3b76-4489-8045-088b8e03aa85?autoplay=false&loop=false&muted=false&preload=false&responsive=true"
+            loading="lazy"
+            className="absolute top-0 left-0 w-full h-full border-0"
+            allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="mt-4">
+          <a
+            href="https://abrasive-beetle-e95.notion.site/HTML-Forms-12766335ef9f8091ae31e558153eb700"
+            target="_blank"
+            className="text-orange-600 font-medium text-lg hover:border-b"
+          >
+            HTML Basic - Document
+          </a>
+        </div>
+      </div>
+      <div>
+        <h2 className="text-xl mb-4">HTML Basic - Class 5</h2>
+        <div className="relative pt-[56.25%]">
+          <iframe
+            src="https://iframe.mediadelivery.net/embed/285932/b64923cc-ebc6-4801-951b-df1f3aa9a78e?autoplay=false&loop=false&muted=false&preload=false&responsive=true"
+            loading="lazy"
+            className="absolute top-0 left-0 w-full h-full border-0"
+            allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="mt-4">
+          <a
+            href="https://abrasive-beetle-e95.notion.site/C1-HTML-12066335ef9f80558245ecfdf1d78d8e"
+            target="_blank"
+            className="text-orange-600 font-medium text-lg hover:border-b"
+          >
+            HTML Basic - Table and project
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
